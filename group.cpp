@@ -43,15 +43,15 @@ int main()
 using namespace std;
 int main()
 {
-    int n=0,total=0,i=1,root=0;
+    int n=0,total=0,root=0;
     cout <<"Enter a Number:";
     cin >>n;
-    while (i<=n)
+    for (int i=0;i<=n;i++)
     {
         root=i*i;
         cout <<root<<endl;
         total+=root;
-        i+=1;
+        
     }
     cout <<"The sum of above series is:"<<total<<endl;
 }
