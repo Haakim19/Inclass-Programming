@@ -3,14 +3,21 @@
 using namespace std;
 int main()
 {
-    string greeting="hello world";
-    int count=1;
+   //Q1. develop a cpp programm to input 10 numbers and desplay the total and avg
 
-    while (count<=5)
+  int num=0,count=1,tot=0;
+  float avg=0;
+    while (count<=10)
     {
-        cout << greeting;
+        cout<<"input numbers: ";
+        cin >> num; 
+        count+=1;
+        tot+=num;
+        avg=tot/3;
     }
-    
+  
+cout<<"Total = "<<tot<<"\n" << "Avarage= "<<avg;
+
     return 0;
 
 }
