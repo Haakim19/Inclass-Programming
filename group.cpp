@@ -1,5 +1,5 @@
 //Question 04
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 int main() 
@@ -54,16 +54,14 @@ int main()
         i+=1;
     }
     cout <<"The sum of above series is:"<<total<<endl;
-}*/
+}
 
 //Question 02
-/*#include<iostream>
-#include<string>
+#include<iostream>
 using namespace std;
 int main()
 {
     int employee_number=0,years_of_working=0,a=1;
-    string designation;
 
     while (a<=3)
     {
@@ -71,8 +69,7 @@ int main()
      cout << "Employee Number:";
      cin >>employee_number;
      cout << "Years of working:";
-     cout << "Designation:";
-     getline (cin, designation);
+
         
         if (years_of_working>=10)
         {
@@ -81,7 +78,7 @@ int main()
      a+=1;
     }
     return 0;
-}*/
+}
 //Question 03
 #include<iostream>
 using namespace std;
