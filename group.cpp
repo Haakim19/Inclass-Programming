@@ -1,6 +1,6 @@
 //Question 04
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 int main() 
@@ -55,7 +55,7 @@ int main()
         
     }
     cout <<"The sum of above series is:"<<total<<endl;
-}*/
+}
 
 //Question 02
 #include<iostream>
@@ -74,7 +74,7 @@ int main()
         cin >> years_of_working;
      if (years_of_working>=10)
         {
-            cout <<"employee number "<<employee_number<<" has "<<years_of_working <<" years of experience with RTX"<<endl;
+            cout <<"employee number "<<employee_number<<" has "<<years_of_working <<" years of working experience with RTX"<<endl;
         }
 
      
@@ -86,7 +86,7 @@ int main()
     
     return 0;
 }
-/*//Question 03
+//Question 03
 #include<iostream>
 using namespace std;
 int main()
@@ -119,4 +119,4 @@ int main()
     }
     
     cout <<"Total sales in that hour:"<<total<<endl;
-}*/
+}
