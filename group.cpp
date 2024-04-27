@@ -120,3 +120,6 @@ int main()
     
     cout <<"Total sales in that hour:"<<total<<endl;
 }
+
+
+
