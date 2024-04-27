@@ -1,5 +1,6 @@
 //Question 04
-#include<iostream>
+
+/*#include<iostream>
 using namespace std;
 
 int main() 
@@ -54,32 +55,38 @@ int main()
         
     }
     cout <<"The sum of above series is:"<<total<<endl;
-}
+}*/
 
 //Question 02
 #include<iostream>
 using namespace std;
 int main()
 {
-    int employee_number=0,years_of_working=0,a=1;
+    int employee_number=0,years_of_working=0;
 
-    while (a<=3)
+
+
+    for (int a = 0; a <=50; a++)
     {
-
-     cout << "Employee Number:";
-     cin >>employee_number;
-     cout << "Years of working:";
-
-        
-        if (years_of_working>=10)
+        cout << "Employee Number:";
+        cin >>employee_number;
+        cout << "Years of working:";
+        cin >> years_of_working;
+     if (years_of_working>=10)
         {
-            cout <<employee_number<<"has at least 10 years of experience with RTX"<<endl;
+            cout <<"employee number "<<employee_number<<" has "<<years_of_working <<" years of experience with RTX"<<endl;
         }
-     a+=1;
+
+     
     }
+    
+    
+
+    
+    
     return 0;
 }
-//Question 03
+/*//Question 03
 #include<iostream>
 using namespace std;
 int main()
@@ -112,4 +119,4 @@ int main()
     }
     
     cout <<"Total sales in that hour:"<<total<<endl;
-}
+}*/
