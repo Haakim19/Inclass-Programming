@@ -48,24 +48,20 @@ for (int count=0 ; count <10 ; count ++)
     cin >>amount[count];
     total+=amount[count];
 }
-
 cout << "Total amount of sales for 10 days-"<<total<<endl;
-
 avg=total/10;
-
 cout << "Average Amount- "<<avg<< endl;
-
 for (int count=0 ; count <10 ; count++ )
 {
    
     if (amount[count]<avg)
-        cout << "Day " <<count+1<<"->" << amount[count]<<endl;
+        cout << "Day" <<count+1 << amount[count]<<endl;
         
-    else  // insert minimum sales amount and max sales amount
-        a+=1;
+    else
+    a+=1;
     
 }
-cout << "Total days which above the average-->"<<a<< endl;
+cout << "Total Days which above the average"<<a<< endl;
 
 
 

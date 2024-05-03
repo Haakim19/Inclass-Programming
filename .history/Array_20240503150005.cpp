@@ -62,7 +62,7 @@ for (int count=0 ; count <10 ; count++ )
         cout << "Day " <<count+1<<"->" << amount[count]<<endl;
         
     else  // insert minimum sales amount and max sales amount
-        a+=1;
+    a+=1;
     
 }
 cout << "Total days which above the average-->"<<a<< endl;
