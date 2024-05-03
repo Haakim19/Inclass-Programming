@@ -6,7 +6,7 @@ array and insert prices of 10 products. Calculate and display the followings:
 3. Display the maximum price and minimum price.
 4. Display the total count of prices which are below the average.
 */
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main ()
 {
@@ -52,12 +52,12 @@ int main ()
    
   
 
-    cout << "-Minimum Price- " << minimum<< endl;
-    cout << "-Maximum Price- " << maximum << endl; 
+    cout << "-Minimum Price- " << price[count] << endl;
+    cout << "-Maximum Price- " << price[count] << endl; 
 
 
  return 0;
-}*/
+}
 
 /*
 Kurunegala Municipal council wants to decide on an approach to limit the number of vehicles 
@@ -68,7 +68,7 @@ number and number of passengers for each vehicle entered into the city until the
 for vehicle number. The program should display the number of vehicles and average number
 of passengers per vehicle.
 */
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main()
 {
@@ -82,7 +82,7 @@ int main()
             break;
          }
         
-        else if (choice == 'Y' || choice == 'y')
+        else if (choice == 'Y' || 'y')
         {
             cout << "vehicle number : ";
             cin >> vehicle_number;
@@ -92,7 +92,7 @@ int main()
             tot_vehicles+=1;
         }
       
-    }  while (choice == 'Y' || choice == 'y');
+    }  while (choice == 'Y' || 'y');
     
     avg = tot_passengers / tot_vehicles;
 
@@ -100,4 +100,4 @@ int main()
     cout << "Average number of passenger per vehicle: " << avg ;
 
 return 0;
-}
+}*/

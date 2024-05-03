@@ -11,7 +11,7 @@ using namespace std;
 int main ()
 {
     float price[10],total = 0,avg = 0, a = 0;
-    int maximum = 0,minimum = 0 , num = 0,count;
+    int maximum = 0,minimum = 0;
     for (int count = 0 ; count < 10 ; count++)
     {
         cout << "Enter price - ";
@@ -19,14 +19,12 @@ int main ()
         total+=price[count];//total=total+price[count]
 
     }
-    maximum = price [0];
-    minimum = price [0];
 
     for(int count = 0 ; count < 10 ; count++)
     {
         cout <<"-Price "<<count+1<<"-"<<price[count]<<endl;
     }
-    cout << "-Total Price - "<< total<< endl;
+    cout << "-Total Price- "<< total<< endl;
 
     avg=total/10;
     cout << "-Average- "<< avg << endl;
@@ -38,23 +36,20 @@ int main ()
     }
     cout << "-Prices are below average-" << a << endl;
 
-   for (int count = 0 ; count < 10 ; count++)
+    for (int count = 0 ; count < 10 ; count++)
     {
         if (minimum > price[count])
             {
                 minimum = price[count];
-            }  
+            }
         if (maximum < price[count])
-         {
-            maximum = price[count];
-         } 
+            {
+                maximum = price[count];
+            }
     }
-   
-  
 
-    cout << "-Minimum Price- " << minimum<< endl;
+    cout << "-Minimum Price- " << minimum << endl;
     cout << "-Maximum Price- " << maximum << endl; 
-
 
  return 0;
 }*/
@@ -77,12 +72,7 @@ int main()
     do
     {   cout << "Enter Y to continue 0 to end: ";
         cin >> choice ;
-        if (choice == 0)
-         {
-            break;
-         }
-        
-        else if (choice == 'Y' || choice == 'y')
+        if (choice == 'Y' || 'y')
         {
             cout << "vehicle number : ";
             cin >> vehicle_number;
@@ -91,13 +81,53 @@ int main()
             tot_passengers+= number_of_passengers;
             tot_vehicles+=1;
         }
-      
-    }  while (choice == 'Y' || choice == 'y');
+       else if (choice == 0)
+       {
+        break;
+       }
+        
+    }  while (choice == 'Y' || 'y');
     
     avg = tot_passengers / tot_vehicles;
 
     cout << "Total vehicle: " << tot_vehicles;
     cout << "Average number of passenger per vehicle: " << avg ;
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 return 0;
 }

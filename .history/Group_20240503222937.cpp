@@ -82,7 +82,7 @@ int main()
             break;
          }
         
-        else if (choice == 'Y' || choice == 'y')
+        else if (choice == 'Y' || 'y')
         {
             cout << "vehicle number : ";
             cin >> vehicle_number;
@@ -92,7 +92,7 @@ int main()
             tot_vehicles+=1;
         }
       
-    }  while (choice == 'Y' || choice == 'y');
+    }  while (choice == 'Y' || 'y');
     
     avg = tot_passengers / tot_vehicles;
 
